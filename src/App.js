@@ -10,6 +10,8 @@ import About from './components/About/About';
 import Courses from './components/Courses/Courses';
 import NotFound from './components/NotFound/NotFound';
 import MenuBar from './components/MenuBar/MenuBar';
+import Footer from './components/Footer/Footer';
+import Contact from './components/Contact/Contact';
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
     <div className="App">
       <Router>
         <MenuBar></MenuBar>
+        
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -30,11 +33,15 @@ function App() {
           <Route path="/courses">
           <Courses></Courses>
           </Route>
+          <Route path="/contact">
+          <Contact></Contact>
+          </Route>
           <Route path="*">
             <NotFound></NotFound>
           </Route>
   
         </Switch>
+        <Footer></Footer>
       </Router>
       
     </div>

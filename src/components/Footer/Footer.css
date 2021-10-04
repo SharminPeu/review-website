@@ -3,7 +3,7 @@
     padding: 5px;
     background-color: rgb(46, 46, 46);
     /* border-radius: 5px; */
-    color: rgb(155, 155, 155);
+    color: rgb(252, 245, 245);
     font-size: 30px;
   }
   .icon:hover {
@@ -25,7 +25,7 @@
     background-color: gray;
   }
   .footer-container {
-    background-color: #191919;
+    background-color: rgb(108, 109, 109);
     padding: 50px;
     color: rgb(216, 209, 209);
   }

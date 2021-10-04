@@ -1,9 +1,12 @@
 import React from 'react';
+import "./NotFound.css"
 
 const NotFound = () => {
     return (
-        <div>
-            <h2>404,this is not available</h2>
+        <div className="error">
+            <h2 className="text-danger fw-bold fs-2">404</h2>
+            <p className="fw-bold">Oops!! You are lost </p>
+            <p className="text-secondary fst-italic">The page you are looking for was not found</p>
         </div>
     );
 };
