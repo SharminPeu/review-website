@@ -1,0 +1,48 @@
+[
+    {
+        "key": "2B",
+        "name": "Deep Learning a-z: Hands-on Artificial Neural Networks",
+        "instructor": "Kine Fath",
+        "duration": "7 Weeks",
+        "access": "Lifetime",
+        "price": 100,
+        "lessons": 10,
+        "totalStudent": 76,
+        "img": "https://thumbs.dreamstime.com/b/node-js-open-source-cross-platform-back-end-javascript-runtime-environment-executes-javascript-code-outside-web-205974724.jpg"
+      },
+      {
+        "key": "5E",
+        "name": "The Data Science Course 2021: Complete Data Science",
+        "instructor": "Jone Max",
+        "duration": "15 Weeks",
+        "access": "4 Month",
+        "price":90,
+        "lessons": 16,
+        "totalStudent": 80,
+        "img": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Data-Science-vs.-Big-Data-vs.jpg"
+      },
+      {
+        "key": "1A",
+        "name": "The Complete Web Development Course",
+        "instructor": "Jone Smith",
+        "duration": "12 Weeks",
+        "access": "Lifetime",
+        "price": 120,
+        "lessons": 9,
+        "totalStudent": 46,
+        "img": "https://www.onlinecoursereport.com/wp-content/uploads/2020/07/shutterstock_394793860-1024x784.jpg"
+      },
+      {
+        "key": "7G",
+        "name": "Pre-Programming:Everything you need to know before you code",
+        "instructor": "Evan Brell",
+        "duration": "4 Weeks",
+        "access": "Lifetime",
+        "price": 13,
+        "lessons": 9,
+        "totalStudent": 30,
+        "img": "https://image.shutterstock.com/image-photo/professional-development-programmer-working-programming-260nw-1233726961.jpg"
+      }
+     
+
+]

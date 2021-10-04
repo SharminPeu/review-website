@@ -9,12 +9,14 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Courses from './components/Courses/Courses';
 import NotFound from './components/NotFound/NotFound';
+import MenuBar from './components/MenuBar/MenuBar';
 
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <MenuBar></MenuBar>
         <Switch>
           <Route exact path="/">
             <Home></Home>

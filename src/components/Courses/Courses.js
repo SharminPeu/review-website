@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from '../Footer/Footer';
 import MenuBar from '../MenuBar/MenuBar';
 import ShowCourses from '../ShowCourses/ShowCourses';
 
@@ -11,9 +12,11 @@ const [courses,setCourses]=useState([]);
     },[])
     return (
         <div>
-            <MenuBar></MenuBar>
-           <div className="row">
-               <div className="col-md-12">
+            {/* <MenuBar></MenuBar> */}
+           <div className="row mt-5">
+               <div className="col-md-12 mt-5">
+               <h2>More Course List of <span className="text-primary">e-Cademy Learning</span>... </h2>
+                   <div className="row">
                    {
                        courses.map((course)=>(<ShowCourses
                         key={course.key}
@@ -26,8 +29,11 @@ const [courses,setCourses]=useState([]);
                        ))
                    }
                </div>
+               </div>
            </div>
+           <Footer></Footer>
         </div>
+        
     );
 };
 
