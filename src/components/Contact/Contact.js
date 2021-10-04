@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="col-md-7 border form text-dark fw-bolder p-2">
                     <form>
 
-                        <p className="my-5 text-dark  ">We'll never share your email and password with anyone else.</p>
+                        <p className="my-5 text-dark  ">We'll never share your email and password with anyone.</p>
                         <div className="mb-3 ">
                             <input type="name" placeholder="Enter your name" className=" text-white form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
