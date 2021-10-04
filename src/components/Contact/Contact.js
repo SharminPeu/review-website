@@ -53,7 +53,7 @@ const Contact = () => {
                             <input type="name" placeholder="Enter your name" className=" text-white form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
                         <div className="mb-3">
-                            <input type="email" placeholder=" your email address " className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            <input type="email" placeholder=" Enter email address " className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
                         <div className="mb-3">
 
