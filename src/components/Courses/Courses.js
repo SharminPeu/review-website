@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import ShowCourses from '../ShowCourses/ShowCourses';
 
 const Courses = () => {
+    // set data from fakedata 
 const [courses,setCourses]=useState([]);
+// load data from fakedata 
     useEffect(()=>{
         fetch('./fakeData.JSON')
         .then(res=>res.json())

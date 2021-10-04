@@ -1,6 +1,8 @@
+/* menubar style */
 .menubar-container{
   background-color: rgb(108, 109, 109);
 }
+/* every item in menu */
 .items {
     list-style: none;
     margin-right: 30px;

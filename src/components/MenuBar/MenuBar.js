@@ -1,15 +1,14 @@
 import React from 'react';
-// import React, { useContext } from "react";
 import "./MenuBar.css";
 import { Link } from "react-router-dom";
-// import { userContext } from "./../../App";
+//set  all options in menubar
 const MenuBar = () => {
     return (
         <div className="container menubar-container mt-3 mb-2">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="d-flex justify-content-center  ">
-                        <span className="navbar-brand text-white  fw-bold ms-2" >e-Cademy Learning</span>
-                    </div>
+                    <span className="navbar-brand text-white  fw-bold ms-2" >e-Cademy Learning</span>
+                </div>
                 <div className="collapse navbar-collapse  d-flex align-items-end justify-content-end" id="navbarNav">
                     <ul className="navbar-nav ">
                         <Link to="/home" className="items text-white fw-bold">
@@ -26,11 +25,7 @@ const MenuBar = () => {
                         </Link>
 
                     </ul>
-
-
-
                 </div>
-
             </nav>
         </div>
     );

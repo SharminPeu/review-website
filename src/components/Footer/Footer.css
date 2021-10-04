@@ -1,3 +1,10 @@
+/* footer background style */
+.footer-container {
+  background-color: rgb(108, 109, 109);
+  padding: 50px;
+  color: rgb(216, 209, 209);
+}
+/* for icon style */
 .icon {
     margin: 5px;
     padding: 5px;
@@ -9,6 +16,7 @@
   .icon:hover {
     background-color: rgb(250, 25, 25);
   }
+  /* footer menu style */
   .footer-menu {
     list-style: none;
     margin-top: 20px;
@@ -24,12 +32,9 @@
     outline: none;
     background-color: gray;
   }
-  .footer-container {
-    background-color: rgb(108, 109, 109);
-    padding: 50px;
-    color: rgb(216, 209, 209);
-  }
-  .foter-phone-icon {
+  
+  
+  .foter-all-icon {
     font-size: 30px;
     color: red;
   }

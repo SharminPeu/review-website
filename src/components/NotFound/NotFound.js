@@ -1,6 +1,6 @@
 import React from 'react';
 import "./NotFound.css"
-
+// set error for wrong typing 
 const NotFound = () => {
     return (
         <div className="error">

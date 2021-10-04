@@ -4,6 +4,7 @@ import "./Contact.css"
 const Contact = () => {
     return (
         <div className="container my-5">
+            {/* contact address section */}
             <h2 className="text-center fw-bold text-primary fw-2 mt-4">Contact Details</h2>
             <div className="row mt-5">
                 <div className=" text-start col-md-5">
@@ -42,24 +43,24 @@ const Contact = () => {
                     </div>
                 </div>
 
-
+{/* login form  */}
 
                 <div className="col-md-7 border form text-dark fw-bolder p-2">
                     <form>
-                   
-                   <p className="my-5 text-dark  ">We'll never share your email and password with anyone else.</p>
-                    <div className="mb-3 ">
-                            <input type="name" placeholder="Enter your name"className=" text-white form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+
+                        <p className="my-5 text-dark  ">We'll never share your email and password with anyone else.</p>
+                        <div className="mb-3 ">
+                            <input type="name" placeholder="Enter your name" className=" text-white form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
                         <div className="mb-3">
-                            <input type="email" placeholder=" your email address "className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            <input type="email" placeholder=" your email address " className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
                         <div className="mb-3">
-                            
+
                             <input type="password" placeholder="Enter your password" className="form-control" id="exampleInputPassword1" />
                         </div>
                         <div className="mb-3">
-                            <input type="subject" placeholder="Enter your subject"className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                            <input type="subject" placeholder="Enter your subject" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                         </div>
                         <div className="mb-3 form-check">
                             <input type="checkbox" className="form-check-input" id="exampleCheck1" />

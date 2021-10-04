@@ -13,7 +13,7 @@ import MenuBar from './components/MenuBar/MenuBar';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
 
-
+// set routing
 function App() {
   return (
     <div className="App">
