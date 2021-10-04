@@ -14,7 +14,7 @@ const Contact = () => {
                     <div className="right-footer-container  ">
 
                         <div className="phone d-flex justify-content-start align-items-start  mt-4">
-                            <div className="foter-phone-icon ">
+                            <div className="all-icon ">
                                 <i className="fas fa-phone-volume me-2"></i>
                             </div>
                             <div>
@@ -22,7 +22,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="phone d-flex justify-content-start align-items-start  mt-4">
-                            <div className="foter-phone-icon ">
+                            <div className="all-icon ">
                                 <i className="far fa-envelope me-2"></i>
                             </div>
                             <div>
@@ -30,7 +30,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="phone d-flex align-items-start justify-content-start mt-4">
-                            <div className="foter-phone-icon ">
+                            <div className="all-icon ">
                                 <i className="fas fa-map-marker-alt me-2"></i>
                             </div>
                             <div>

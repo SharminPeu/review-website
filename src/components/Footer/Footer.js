@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="right-footer-container ">
             <h3>Address</h3>
             <div className="phone d-flex align-items-center justify-content-center mt-4">
-              <div className="foter-all-icon ">
+              <div className="all-icon ">
                 <i className="fas fa-phone-volume me-2"></i>
               </div>
               <div>
@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="phone d-flex align-items-center justify-content-center mt-4">
-              <div className="foter-all-icon ">
+              <div className="all-icon ">
                 <i class="far fa-envelope me-2"></i>
               </div>
               <div>
@@ -62,7 +62,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="phone d-flex align-items-center justify-content-center mt-4">
-              <div className="foter-all-icon ">
+              <div className="all-icon ">
                 <i className="fas fa-map-marker-alt me-2"></i>
               </div>
               <div>
