@@ -1,7 +1,7 @@
 # Getting Started with e-Cademy Learning
 ## Project Description
-* Its a online based programming language learning site
-* Here we have different section in our page,People can choose their desire course from this website.
+* Its a full responsive online based programming language learning site
+* Here we have different section in our page,People can choose their desire course and see the course details from this website.
 * In this project we use  bootstrap framework  and customised Css and fro icon we use fontawesome.
 
 ## Live Site Link [https://e-cademy-learning-assignment.netlify.app/]
